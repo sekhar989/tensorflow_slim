@@ -1,1 +1,1 @@
-# tensorflow_slim
+# Train Image Recognition Model on own Dataset
