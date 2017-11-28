@@ -1,1 +1,1 @@
-# Train Image Recognition Model on own Dataset
+# Train Image Recognition Model on own Dataset using Tf-Slim
