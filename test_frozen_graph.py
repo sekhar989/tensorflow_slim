@@ -35,12 +35,3 @@ with tf.Graph().as_default() as graph:
         prediction_names = [labels_dict[i] for i in top_4_predictions]
         for i in xrange(len(prediction_names)):
             print 'Prediction: %s, Probability: %s \n' % (prediction_names[i], top_4_probabilities[i])
-
-# import tensorflow as tf
-
-# img = tf.placeholder(name="img", dtype=tf.float32, shape=(1, 299, 299, 3))
-# val = img + tf.constant([1., 2., 3.]) + tf.constant([1., 4., 4.])
-# out = tf.identity(val, name="out")
-# with tf.Session() as sess:
-#     tflite_model = tf.contrib.lite.toco_convert(sess.graph_def, [img], [out])
-#     open("test.tflite", "wb").write(tflite_modeL)
