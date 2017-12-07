@@ -1,4 +1,5 @@
 ## Program for converting any data set to TF Slim format data set
+## python image_to_tf_rec.py --image_input dataset
 
 from __future__ import absolute_import
 from __future__ import division
