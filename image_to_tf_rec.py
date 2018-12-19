@@ -23,7 +23,7 @@ in_dataset_dir = FLAGS.image_input
 # # out_dataset_dir = FLAGS.output_path
 
 # The number of images in the validation set.
-_NUM_VALIDATION = 350
+_NUM_VALIDATION = 3500
 
 # Seed for repeatability.
 _RANDOM_SEED = 0
