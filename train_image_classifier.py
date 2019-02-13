@@ -14,6 +14,19 @@
 # ==============================================================================
 """Generic training script that trains a model using a given dataset."""
 
+''' python train_image_classifier.py 
+    --train_dir=../data/train-scene_classification/training_iv3/
+    --dataset_dir=../data/train-scene_classification/data/
+    --dataset_name=dataset
+    --dataset_split_name=train
+    --model_name=inception_v3
+    --checkpoint_path=../data/train-scene_classification/checkpoint_iv3/inception_v3.ckpt
+    --checkpoint_exclude_scopes=InceptionV3/Logits,InceptionV3/AuxLogits
+    --trainable_scopes=InceptionV3/Logits,InceptionV3/AuxLogits '''
+
+
+
+
 from __future__ import absolute_import
 from __future__ import division
 from __future__ import print_function
